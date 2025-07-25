@@ -1,31 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+    <title>Frontend Mentor | Blog preview card</title>
+    <link rel="stylesheet" href="/styles/style.css">
+  </head>
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Blog preview card</title>
+  <body class="page__body">
+    <main class="page__main">
+      <h1 class="visually-hidden">Frontend Mentor | Blog preview card</h1>
+      
+        <section class="card">
+          <div class="card__wrapper">    
+            <h2 class="visually-hidden">Blog Preview Card</h2 >
+            <img class="card__image" src="./assets/images/illustration-article.svg" alt="Abstraction with web elements">
+            <button class="card__button">Learning</button>
+            <span class="card__date">Published 21 Dec 2023</span>
+            <div class="card__text-container">
+              <h3 class="card__title">HTML & CSS foundations</h3>
+              <p class="card__text">These languages are the backbone of every website, defining structure, content, and presentation.</p>
+            </div>
+            <div class="card__author">
+              <img class="card__avatar"src="./assets/images/image-avatar.webp" alt="Greg Hooper">
+              <span class="card__name">Greg Hooper</span>
+            </div>
+          </div>
+        </section>   
+    </main>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <link rel="stylesheet" href="/styles/style.css">
-</head>
-<body>
-
-  Learning
-
-  Published 21 Dec 2023
-
-  HTML & CSS foundations
-
-  These languages are the backbone of every website, defining structure, content, and presentation.
-
-  Greg Hooper
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
+    <footer class="attribution">
+      <p>Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.</p>
+      <p>Coded by <a href="#">Anna Sadovaya</a>.</p>
+    </footer>  
+  </body>
 </html>
